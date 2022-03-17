@@ -13,7 +13,8 @@
     "lint:es:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:format": "prettier --loglevel=warn 'src/**/*.{js,jsx,ts,tsx,html,json}'",
     "lint:format:fix": "prettier --write --loglevel=warn 'src/**/*.{js,jsx,ts,tsx,html,json}'",
-    "lint:conflict": "eslint-config-prettier 'src/**/*.{js,jsx,ts,tsx}'"
+    "lint:conflict": "eslint-config-prettier 'src/**/*.{js,jsx,ts,tsx}'",
+    "test": "jest --passWithNoTests"
   },
   "dependencies": {
     "preact": "^10.5.15"
