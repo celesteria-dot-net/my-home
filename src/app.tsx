@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Top from '@/components/pages/top';
 import About from '@/components/pages/about';
-import Blogs from '@/components/pages/blogs';
+import Posts from '@/components/pages/posts';
 import Apps from '@/components/pages/apps';
 
 const App = () => (
@@ -9,7 +9,7 @@ const App = () => (
     <Routes>
       <Route index element={<Top />} />
       <Route path="about" element={<About />} />
-      <Route path="blogs" element={<Blogs />} />
+      <Route path="blogs" element={<Posts />} />
       <Route path="apps" element={<Apps />} />
       <Route path="*" element={<div>not found!</div>} />
     </Routes>
