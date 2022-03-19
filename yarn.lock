@@ -977,7 +977,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/estree@npm:*":
+"@types/estree@npm:*, @types/estree@npm:^0.0.51":
   version: 0.0.51
   resolution: "@types/estree@npm:0.0.51"
   checksum: e56a3bcf759fd9185e992e7fdb3c6a5f81e8ff120e871641607581fb3728d16c811702a7d40fa5f869b7f7b4437ab6a87eb8d98ffafeee51e85bbe955932a189
@@ -4980,6 +4980,7 @@ __metadata:
     "@preact/preset-vite": ^2.1.7
     "@types/babel__core": ^7.1.18
     "@types/eslint": ^8.4.1
+    "@types/estree": ^0.0.51
     "@types/node": ^17.0.21
     "@types/prettier": ^2.4.4
     "@typescript-eslint/eslint-plugin": ^5.15.0
@@ -5004,6 +5005,7 @@ __metadata:
     preact: ^10.6.6
     prettier: ^2.6.0
     tailwindcss: ^3.0.23
+    tsc: ^2.0.4
     typescript: ^4.6.2
     typesync: ^0.8.0
     vite: ^2.8.6
@@ -6487,6 +6489,15 @@ __metadata:
   dependencies:
     punycode: ^2.1.1
   checksum: ffe6049b9dca3ae329b059aada7f515b0f0064c611b39b51ff6b53897e954650f6f63d9319c6c008d36ead477c7b55e5f64c9dc60588ddc91ff720d64eb710b3
+  languageName: node
+  linkType: hard
+
+"tsc@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "tsc@npm:2.0.4"
+  bin:
+    tsc: bin/tsc
+  checksum: 50b10240887424c66454687f0fca4e319713b35cb44f0dab228719eb4dd757251f83c3d79e60d29dfbe90c2d6f1272f793b83e75a9fca2c622b4213ad3eb8cb1
   languageName: node
   linkType: hard
 

@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@preact/preset-vite", "virtual:2901b7040183eb36e2dbcc2833c0ea81754e822ad41fcb042447a6d34b1004b08c51197133c5b5c4b4b84c7a6a153aa79eb7edad484eea6c6a15933b5d7d42a9#npm:2.1.7"],\
             ["@types/babel__core", "npm:7.1.18"],\
             ["@types/eslint", "npm:8.4.1"],\
+            ["@types/estree", "npm:0.0.51"],\
             ["@types/node", "npm:17.0.21"],\
             ["@types/prettier", "npm:2.4.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:2901b7040183eb36e2dbcc2833c0ea81754e822ad41fcb042447a6d34b1004b08c51197133c5b5c4b4b84c7a6a153aa79eb7edad484eea6c6a15933b5d7d42a9#npm:5.15.0"],\
@@ -62,6 +63,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["preact", "npm:10.6.6"],\
             ["prettier", "npm:2.6.0"],\
             ["tailwindcss", "virtual:2901b7040183eb36e2dbcc2833c0ea81754e822ad41fcb042447a6d34b1004b08c51197133c5b5c4b4b84c7a6a153aa79eb7edad484eea6c6a15933b5d7d42a9#npm:3.0.23"],\
+            ["tsc", "npm:2.0.4"],\
             ["typescript", "patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=bda367"],\
             ["typesync", "npm:0.8.0"],\
             ["vite", "virtual:2901b7040183eb36e2dbcc2833c0ea81754e822ad41fcb042447a6d34b1004b08c51197133c5b5c4b4b84c7a6a153aa79eb7edad484eea6c6a15933b5d7d42a9#npm:2.8.6"]\
@@ -6471,6 +6473,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@preact/preset-vite", "virtual:2901b7040183eb36e2dbcc2833c0ea81754e822ad41fcb042447a6d34b1004b08c51197133c5b5c4b4b84c7a6a153aa79eb7edad484eea6c6a15933b5d7d42a9#npm:2.1.7"],\
             ["@types/babel__core", "npm:7.1.18"],\
             ["@types/eslint", "npm:8.4.1"],\
+            ["@types/estree", "npm:0.0.51"],\
             ["@types/node", "npm:17.0.21"],\
             ["@types/prettier", "npm:2.4.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:2901b7040183eb36e2dbcc2833c0ea81754e822ad41fcb042447a6d34b1004b08c51197133c5b5c4b4b84c7a6a153aa79eb7edad484eea6c6a15933b5d7d42a9#npm:5.15.0"],\
@@ -6495,6 +6498,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["preact", "npm:10.6.6"],\
             ["prettier", "npm:2.6.0"],\
             ["tailwindcss", "virtual:2901b7040183eb36e2dbcc2833c0ea81754e822ad41fcb042447a6d34b1004b08c51197133c5b5c4b4b84c7a6a153aa79eb7edad484eea6c6a15933b5d7d42a9#npm:3.0.23"],\
+            ["tsc", "npm:2.0.4"],\
             ["typescript", "patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=bda367"],\
             ["typesync", "npm:0.8.0"],\
             ["vite", "virtual:2901b7040183eb36e2dbcc2833c0ea81754e822ad41fcb042447a6d34b1004b08c51197133c5b5c4b4b84c7a6a153aa79eb7edad484eea6c6a15933b5d7d42a9#npm:2.8.6"]\
@@ -8169,6 +8173,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["tr46", "npm:2.1.0"],\
             ["punycode", "npm:2.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tsc", [\
+        ["npm:2.0.4", {\
+          "packageLocation": "./.yarn/cache/tsc-npm-2.0.4-e331b066cb-50b1024088.zip/node_modules/tsc/",\
+          "packageDependencies": [\
+            ["tsc", "npm:2.0.4"]\
           ],\
           "linkType": "HARD"\
         }]\
