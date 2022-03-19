@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const Top = () => (
+const Home = () => (
   <div className="hero min-h-screen max-h-screen">
     <div className="hero-overlay bg-opacity-50" />
     <div className="hero-content text-center text-neutral-content max-w-md flex flex-col">
@@ -74,4 +74,4 @@ const Top = () => (
   </div>
 );
 
-export default Top;
+export default Home;
