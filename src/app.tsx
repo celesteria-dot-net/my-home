@@ -1,8 +1,6 @@
-import Logo from './logo';
 
 const App = () => (
   <>
-    <Logo />
     <p>Hello Vite + Preact!</p>
     <p>
       <a
