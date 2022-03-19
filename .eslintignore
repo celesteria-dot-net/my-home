@@ -1,3 +1,4 @@
 *.d.ts
 .eslintrc.js
-*.config.(js|ts)
+*.config.js
+*.config.ts
