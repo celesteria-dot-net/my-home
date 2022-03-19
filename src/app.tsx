@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Top from '@/top';
-import About from '@/about';
-import Blogs from '@/blogs';
-import Apps from '@/apps';
+import Top from '@/components/pages/top';
+import About from '@/components/pages/about';
+import Blogs from '@/components/pages/blogs';
+import Apps from '@/components/pages/apps';
 
 const App = () => (
   <BrowserRouter>
