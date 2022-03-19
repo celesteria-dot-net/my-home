@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Top = () => (
   <div className="hero min-h-screen max-h-screen">
     <div className="hero-overlay bg-opacity-50" />
@@ -6,7 +8,7 @@ const Top = () => (
       <div className="divider" />
       <ul className="menu menu-vertical md:menu-horizontal rounded-box text-xl">
         <li>
-          <div>
+          <Link to="about">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-8"
@@ -16,10 +18,10 @@ const Top = () => (
               <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1.25 17c0 .69-.559 1.25-1.25 1.25-.689 0-1.25-.56-1.25-1.25s.561-1.25 1.25-1.25c.691 0 1.25.56 1.25 1.25zm1.393-9.998c-.608-.616-1.515-.955-2.551-.955-2.18 0-3.59 1.55-3.59 3.95h2.011c0-1.486.829-2.013 1.538-2.013.634 0 1.307.421 1.364 1.226.062.847-.39 1.277-.962 1.821-1.412 1.343-1.438 1.993-1.432 3.468h2.005c-.013-.664.03-1.203.935-2.178.677-.73 1.519-1.638 1.536-3.022.011-.924-.284-1.719-.854-2.297z" />
             </svg>
             About
-          </div>
+          </Link>
         </li>
         <li>
-          <div>
+          <Link to="blogs">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-8"
@@ -29,10 +31,10 @@ const Top = () => (
               <path d="M10 13h-4v-1h4v1zm2.318-4.288l3.301 3.299-4.369.989 1.068-4.288zm11.682-5.062l-7.268 7.353-3.401-3.402 7.267-7.352 3.402 3.401zm-6 8.916v.977c0 4.107-6 2.457-6 2.457s1.518 6-2.638 6h-7.362v-20h14.056l1.977-2h-18.033v24h10.189c3.163 0 9.811-7.223 9.811-9.614v-3.843l-2 2.023z" />
             </svg>
             Posts
-          </div>
+          </Link>
         </li>
         <li>
-          <div>
+          <Link to="apps">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-8"
@@ -42,7 +44,7 @@ const Top = () => (
               <path d="M22 6v12h-16v-12h16zm2-6h-20v20h20v-20zm-22 22v-19h-2v21h21v-2h-19z" />
             </svg>
             Apps
-          </div>
+          </Link>
         </li>
       </ul>
       <div className="divider" />
