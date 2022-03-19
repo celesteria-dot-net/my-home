@@ -100,6 +100,7 @@ module.exports = {
       node: {
         paths: ['src'],
       },
+      typescript: [],
     },
   },
 };
