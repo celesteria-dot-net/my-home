@@ -5,19 +5,19 @@ type Path = {
 
 const paths: Path[] = [
   {
-    path: '/',
+    path: '',
     name: 'Home',
   },
   {
-    path: '/about',
+    path: 'about',
     name: 'About me',
   },
   {
-    path: '/posts',
+    path: 'posts',
     name: 'Posts',
   },
   {
-    path: '/apps',
+    path: 'apps',
     name: 'Apps',
   },
 ];
