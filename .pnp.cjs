@@ -38,7 +38,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@preact/preset-vite", "virtual:2901b7040183eb36e2dbcc2833c0ea81754e822ad41fcb042447a6d34b1004b08c51197133c5b5c4b4b84c7a6a153aa79eb7edad484eea6c6a15933b5d7d42a9#npm:2.1.7"],\
             ["@types/babel__core", "npm:7.1.18"],\
             ["@types/eslint", "npm:8.4.1"],\
-            ["@types/estree", "npm:0.0.51"],\
             ["@types/node", "npm:17.0.21"],\
             ["@types/prettier", "npm:2.4.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:2901b7040183eb36e2dbcc2833c0ea81754e822ad41fcb042447a6d34b1004b08c51197133c5b5c4b4b84c7a6a153aa79eb7edad484eea6c6a15933b5d7d42a9#npm:5.15.0"],\
@@ -6473,7 +6472,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@preact/preset-vite", "virtual:2901b7040183eb36e2dbcc2833c0ea81754e822ad41fcb042447a6d34b1004b08c51197133c5b5c4b4b84c7a6a153aa79eb7edad484eea6c6a15933b5d7d42a9#npm:2.1.7"],\
             ["@types/babel__core", "npm:7.1.18"],\
             ["@types/eslint", "npm:8.4.1"],\
-            ["@types/estree", "npm:0.0.51"],\
             ["@types/node", "npm:17.0.21"],\
             ["@types/prettier", "npm:2.4.4"],\
             ["@typescript-eslint/eslint-plugin", "virtual:2901b7040183eb36e2dbcc2833c0ea81754e822ad41fcb042447a6d34b1004b08c51197133c5b5c4b4b84c7a6a153aa79eb7edad484eea6c6a15933b5d7d42a9#npm:5.15.0"],\

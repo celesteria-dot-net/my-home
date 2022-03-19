@@ -16,7 +16,7 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "preact": "^10.6.6"
+    "preact": "10.6.6"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",

@@ -977,7 +977,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/estree@npm:*, @types/estree@npm:^0.0.51":
+"@types/estree@npm:*":
   version: 0.0.51
   resolution: "@types/estree@npm:0.0.51"
   checksum: e56a3bcf759fd9185e992e7fdb3c6a5f81e8ff120e871641607581fb3728d16c811702a7d40fa5f869b7f7b4437ab6a87eb8d98ffafeee51e85bbe955932a189
@@ -4980,7 +4980,6 @@ __metadata:
     "@preact/preset-vite": ^2.1.7
     "@types/babel__core": ^7.1.18
     "@types/eslint": ^8.4.1
-    "@types/estree": ^0.0.51
     "@types/node": ^17.0.21
     "@types/prettier": ^2.4.4
     "@typescript-eslint/eslint-plugin": ^5.15.0
@@ -5002,7 +5001,7 @@ __metadata:
     jest: ^27.5.1
     npm-run-all: ^4.1.5
     postcss: ^8.4.12
-    preact: ^10.6.6
+    preact: 10.6.6
     prettier: ^2.6.0
     tailwindcss: ^3.0.23
     tsc: ^2.0.4
@@ -5612,7 +5611,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"preact@npm:^10.6.6":
+"preact@npm:10.6.6":
   version: 10.6.6
   resolution: "preact@npm:10.6.6"
   checksum: d6a9581b222c60595f987be28738b68dabb3045f72043e2619af81e9ca00b2b0942717642bcfcaab77a0afa50a97cd35039139c7f425a62a4f02ceb793d8ef83
