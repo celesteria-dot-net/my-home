@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+import ExLink from '@/components/atoms/ExLink';
 import { externalPaths, internalIcons, internalPaths } from '@/paths';
 
 const Home = () => (
@@ -23,15 +24,9 @@ const Home = () => (
       <div className="divider" />
       <div className="btn-group">
         {externalPaths({ className: 'w-8' }).map(({ path, icon }) => (
-          <a
-            href={path}
-            className="btn btn-ghost"
-            key={path}
-            target="_blank"
-            rel="noreferrer"
-          >
+          <ExLink href={path} className="btn btn-ghost" key={path}>
             {icon}
-          </a>
+          </ExLink>
         ))}
       </div>
     </div>
