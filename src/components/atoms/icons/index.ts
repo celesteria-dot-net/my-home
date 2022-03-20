@@ -1,19 +1,19 @@
-import Notes from './notes';
-import Windows from './windows';
-import Home from './home';
 import CircledQuestion from './circledQuestion';
 import GitHub from './github';
+import Home from './home';
+import Notes from './notes';
 import Twitter from './twitter';
+import Windows from './windows';
 
 import type { IconProp, ColoredIconProp } from './iconProp';
 
 export {
   CircledQuestion,
-  Notes,
-  Windows,
-  Home,
   GitHub,
+  Home,
+  Notes,
   Twitter,
-  IconProp,
+  Windows,
   ColoredIconProp,
+  IconProp,
 };

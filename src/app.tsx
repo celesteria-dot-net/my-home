@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from '@/components/pages/home';
+
 import About from '@/components/pages/about';
-import Posts from '@/components/pages/posts';
 import Apps from '@/components/pages/apps';
+import Home from '@/components/pages/home';
+import Posts from '@/components/pages/posts';
 import { internalPaths } from '@/paths';
 
 const App = () => (
