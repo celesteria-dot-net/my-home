@@ -23,7 +23,13 @@ const Home = () => (
       <div className="divider" />
       <div className="btn-group">
         {externalPaths({ className: 'w-8' }).map(({ path, icon }) => (
-          <a href={path} className="btn btn-ghost" key={path}>
+          <a
+            href={path}
+            className="btn btn-ghost"
+            key={path}
+            target="_blank"
+            rel="noreferrer"
+          >
             {icon}
           </a>
         ))}
