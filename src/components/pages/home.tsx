@@ -4,7 +4,7 @@ import ExLink from '@/components/atoms/ExLink';
 import { externalPaths, internalIcons, internalPaths } from '@/paths';
 
 const Home = () => (
-  <div className="hero min-h-screen max-h-screen">
+  <div className="hero min-h-screen max-h-screen min-w-min max-w-full">
     <div className="hero-overlay bg-opacity-50" />
     <div className="hero-content text-center text-neutral-content max-w-md flex flex-col">
       <h1 className="text-4xl font-bold">Lucky (Lucky3028)</h1>
