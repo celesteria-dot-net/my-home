@@ -2,7 +2,7 @@
 import * as icons from '@/components/atoms/icons';
 
 type pages = 'home' | 'about' | 'posts' | 'apps';
-type PathWithIcon = {
+export type PathWithIcon = {
   path: string;
   title: string;
   icon: JSX.Element;
