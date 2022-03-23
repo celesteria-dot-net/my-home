@@ -5,15 +5,5 @@ import Notes from './notes';
 import Twitter from './twitter';
 import Windows from './windows';
 
-import type { IconProp, ColoredIconProp } from './iconProp';
-
-export {
-  CircledQuestion,
-  GitHub,
-  Home,
-  Notes,
-  Twitter,
-  Windows,
-  ColoredIconProp,
-  IconProp,
-};
+export type { IconProp, ColoredIconProp } from './iconProp';
+export { CircledQuestion, GitHub, Home, Notes, Twitter, Windows };
