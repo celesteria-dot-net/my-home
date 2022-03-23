@@ -1,6 +1,6 @@
 import Container from '@/components/atoms/container';
 import Heading2 from '@/components/atoms/headings';
-import Header from '@/containers/organisms/header';
+import Header from '@/components/organisms/header';
 import { internalPaths } from '@/paths';
 
 const About = () => (
