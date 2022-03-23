@@ -9,7 +9,7 @@ const About = () => (
     <Container>
       <Heading2>{internalPaths.about.title}</Heading2>
       <div className="overflow-x-auto">
-        <div className="table w-full text-center">
+        <div className="table w-full">
           <tbody>
             <tr>
               <th>HN</th>
