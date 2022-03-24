@@ -2,8 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import NotFound from '@/components/pages/404';
 import About from '@/components/pages/about';
+import Apps from '@/components/pages/apps';
 import Posts from '@/components/pages/posts';
-import Apps from '@/containers/pages/apps';
 import Home from '@/containers/pages/home';
 import { internalPaths } from '@/paths';
 
