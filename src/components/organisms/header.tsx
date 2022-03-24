@@ -5,7 +5,7 @@ import NavBar from '@/containers/molecules/navBar';
 import { internalPaths } from '@/paths';
 
 const Header = () => (
-  <header className="navbar bg-blue-300 flex-col md:flex-row">
+  <header className="navbar bg-blue-300 flex-col md:flex-row sticky top-0 z-20">
     <div className="flex-1">
       <Link to={internalPaths.home.path}>
         <SiteLogo />
