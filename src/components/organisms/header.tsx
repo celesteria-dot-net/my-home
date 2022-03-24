@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
-import SiteLogo from '@/components/atoms/siteLogo';
-import NavBar from '@/containers/molecules/navBar';
+import SiteLogo from '@/components/atoms/SiteLogo';
+import NavBar from '@/containers/molecules/NavBar';
 import { internalPaths } from '@/paths';
 
 const Header = () => (

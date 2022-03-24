@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 
 import { IconProp } from '@/components/atoms/icons';
-import NavBar from '@/components/molecules/navBar';
+import NavBar from '@/components/molecules/NavBar';
 import { internalIcons } from '@/paths';
 
 const ExtendedNavBar = (props: IconProp) => {

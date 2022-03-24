@@ -1,4 +1,4 @@
-import Container from '@/components/atoms/container';
+import Container from '@/components/atoms/Container';
 import Heading2 from '@/components/atoms/headings';
 import Header from '@/components/organisms/header';
 import { internalPaths } from '@/paths';
