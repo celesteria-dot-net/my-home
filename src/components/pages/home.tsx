@@ -1,5 +1,5 @@
 import ExLink from '@/components/atoms/ExLink';
-import NavBar from '@/containers/molecules/navBar';
+import NavBar from '@/containers/molecules/NavBar';
 import { PathWithIcon } from '@/paths';
 
 type Prop = {

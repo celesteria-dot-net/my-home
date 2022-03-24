@@ -2,7 +2,7 @@ import { Application } from '@/applications';
 import Container from '@/components/atoms/Container';
 import ExLink from '@/components/atoms/ExLink';
 import Heading2 from '@/components/atoms/headings';
-import Header from '@/components/organisms/header';
+import Header from '@/components/organisms/Header';
 import { internalPaths } from '@/paths';
 
 type Prop = {
