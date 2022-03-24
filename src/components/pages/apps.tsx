@@ -9,6 +9,8 @@ type Prop = {
   applications: Application[];
 };
 
+// TODO: responsive
+
 const Apps = ({ applications = [] }: Prop) => (
   <>
     <Header />
