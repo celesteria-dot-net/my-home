@@ -15,16 +15,18 @@ const Apps = ({ applications = [] }: Prop) => (
     <Container>
       <Heading2>{internalPaths.apps.title}</Heading2>
       {applications.length ? (
-        applications.map((app) => (
-          <div className="card shadow-md hover:bg-blue-200 my-2">
-            <ExLink href={app.link}>
-              <div className="card-body">
-                <h3 className="card-title">{app.title}</h3>
-                <p>{app.description}</p>
-              </div>
-            </ExLink>
-          </div>
-        ))
+        <ul className="menu">
+          {applications.map((app) => (
+            <li className="card shadow-md my-2">
+              <ExLink href={app.link}>
+                <div className="card-body">
+                  <h3 className="card-title">{app.title}</h3>
+                  <p>{app.description}</p>
+                </div>
+              </ExLink>
+            </li>
+          ))}
+        </ul>
       ) : (
         <div className="alert shadow-lg">
           <div>
