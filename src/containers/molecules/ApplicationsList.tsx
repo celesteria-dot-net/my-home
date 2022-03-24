@@ -1,5 +1,5 @@
 import apps from '@/applications';
-import ApplicationsList from '@/components/organisms/ApplicationsList';
+import ApplicationsList from '@/components/molecules/ApplicationsList';
 
 const EnhancedApplicationsList = () => <ApplicationsList applications={apps} />;
 

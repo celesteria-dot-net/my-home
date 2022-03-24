@@ -1,7 +1,7 @@
 import Container from '@/components/atoms/Container';
 import Heading2 from '@/components/atoms/headings';
 import Header from '@/components/organisms/Header';
-import ApplicationsList from '@/containers/organisms/ApplicationsList';
+import ApplicationsList from '@/containers/molecules/ApplicationsList';
 import { internalPaths } from '@/paths';
 
 // TODO: responsive
