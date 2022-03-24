@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import About from '@/components/pages/about';
-import Home from '@/components/pages/home';
 import Posts from '@/components/pages/posts';
 import Apps from '@/containers/pages/apps';
+import Home from '@/containers/pages/home';
 import { internalPaths } from '@/paths';
 
 const App = () => (

@@ -1,8 +1,12 @@
 import ExLink from '@/components/atoms/ExLink';
 import NavBar from '@/containers/molecules/navBar';
-import { externalPaths } from '@/paths';
+import { PathWithIcon } from '@/paths';
 
-const Home = () => (
+type Prop = {
+  externalPaths: PathWithIcon[];
+};
+
+const Home = ({ externalPaths }: Prop) => (
   <div className="hero min-h-screen max-h-screen min-w-min max-w-full">
     <div className="hero-overlay bg-opacity-50" />
     <div className="hero-content text-center text-neutral-content max-w-md flex flex-col">
@@ -13,7 +17,7 @@ const Home = () => (
       </div>
       <div className="divider" />
       <div className="btn-group">
-        {externalPaths({ className: 'w-8' }).map(({ path, icon }) => (
+        {externalPaths.map(({ path, icon }) => (
           <ExLink href={path} className="btn btn-ghost" key={path}>
             {icon}
           </ExLink>
