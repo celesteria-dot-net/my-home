@@ -2,7 +2,7 @@ const Container = ({
   children,
   ...props
 }: JSX.HTMLAttributes<HTMLDivElement>) => (
-  <div className="flex justify-center">
+  <main className="flex justify-center">
     <div
       // eslint-disable-next-line react/jsx-props-no-spreading
       {...props}
@@ -10,7 +10,7 @@ const Container = ({
     >
       {children}
     </div>
-  </div>
+  </main>
 );
 
 export default Container;
