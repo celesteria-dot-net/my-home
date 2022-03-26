@@ -13,7 +13,7 @@ const NotFound = () => (
           <SiteLogoBtn />
         </h1>
       </Link>
-      <p>ご指定のページは見つかりませんでした。</p>
+      <h2>ご指定のページは見つかりませんでした。</h2>
       <div className="divider" />
       <NavBar className="w-5" fill="black" />
     </div>
