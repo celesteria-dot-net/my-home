@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import SiteLogo from '@/components/atoms/SiteLogo';
+import SiteLogoBtn from '@/components/molecules/SiteLogoBtn';
 import NavBar from '@/containers/molecules/NavBar';
 import { internalPaths } from '@/paths';
 
@@ -8,7 +8,9 @@ const Header = () => (
   <header className="navbar bg-blue-300 flex-col md:flex-row sticky top-0 z-20">
     <div className="flex-1">
       <Link to={internalPaths.home.path}>
-        <SiteLogo />
+        <h1>
+          <SiteLogoBtn />
+        </h1>
       </Link>
     </div>
     <div className="flex-none">

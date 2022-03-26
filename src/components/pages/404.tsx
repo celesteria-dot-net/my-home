@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import SiteLogo from '@/components/atoms/SiteLogo';
+import SiteLogoBtn from '@/components/molecules/SiteLogoBtn';
 import NavBar from '@/containers/molecules/NavBar';
 import { internalPaths } from '@/paths';
 
@@ -9,7 +9,9 @@ const NotFound = () => (
     <div className="hero-overlay bg-opacity-50" />
     <div className="hero-content flex flex-col justify-center max-w-md text-center">
       <Link to={internalPaths.home.path}>
-        <SiteLogo />
+        <h1>
+          <SiteLogoBtn />
+        </h1>
       </Link>
       <p>ご指定のページは見つかりませんでした。</p>
       <div className="divider" />
