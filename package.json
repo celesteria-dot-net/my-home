@@ -19,6 +19,7 @@
   "dependencies": {
     "preact": "10.6.6",
     "react-markdown": "^8.0.1",
+    "react-query": "^3.34.19",
     "react-router-dom": "^6.2.2"
   },
   "devDependencies": {
