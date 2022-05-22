@@ -18,9 +18,9 @@
   },
   "dependencies": {
     "preact": "10.7.2",
-    "react-markdown": "^8.0.1",
-    "react-query": "^3.34.19",
-    "react-router-dom": "^6.2.2"
+    "react-markdown": "8.0.3",
+    "react-query": "3.39.0",
+    "react-router-dom": "6.3.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.1.5",
