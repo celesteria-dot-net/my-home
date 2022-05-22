@@ -1,3 +1,23 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.cdnfonts.com/css/duma');
+
+/* #region tableをレスポンシブにするCSS */
+
+th {
+  @apply text-center md:text-left border-none md:border-solid;
+}
+
+th, td {
+  @apply w-full md:w-auto block md:table-cell;
+}
+
+/* #endregion */
+
+td > ul {
+  /* 箇条書きをテーブルの中に入れると、箇条書きの記号が半分消えてしまうのでそれを修正する */
+  @apply ml-5;
+  /* 箇条書きは大抵の場合左揃え固定であろう */
+  @apply text-left;
+}

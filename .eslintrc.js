@@ -70,6 +70,27 @@ module.exports = {
         tsx: 'never',
       },
     ],
+    'import/order': [
+      'error',
+      {
+        groups: [
+          ['builtin', 'external'],
+          'internal',
+          ['index', 'sibling'],
+          'parent',
+          'type',
+        ],
+        'newlines-between': 'always',
+        pathGroups: [
+          {
+            pattern: '@/**',
+            group: 'internal',
+            position: 'before',
+          },
+        ],
+        alphabetize: { order: 'asc' },
+      },
+    ],
     'prefer-arrow/prefer-arrow-functions': [
       'error',
       {
@@ -100,6 +121,7 @@ module.exports = {
       node: {
         paths: ['src'],
       },
+      typescript: [],
     },
   },
 };

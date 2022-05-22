@@ -12,7 +12,7 @@ jobs:
       - name: Install deps
         run: yarn
       - name: Run lint and format
-        run: yarn lint:fix
+        run: yarn lint
       - name: Run test
         run: yarn test
       - name: Run build
