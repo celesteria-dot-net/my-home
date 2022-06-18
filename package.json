@@ -17,7 +17,7 @@
     "test": "jest --passWithNoTests"
   },
   "dependencies": {
-    "preact": "10.7.3",
+    "preact": "10.8.1",
     "react-markdown": "8.0.3",
     "react-query": "3.39.1",
     "react-router-dom": "6.3.0"
